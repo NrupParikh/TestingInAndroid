@@ -8,13 +8,19 @@ https://truth.dev/
 - Adds dependency for androidTest source set
 `androidTestImplementation "com.google.truth:truth:1.1.3"`
 
+### Difference between implementation, testImplementation and androidTestImplementation
+
+- implementation: The dependency is available in all source sets, including the test source sets.
+- testImplementation: The dependency is only available in the test source set.
+- androidTestImplementation: The dependency is only available in the androidTest source set.
+
 # Source Sets
 ### A SourceSet represents a logical group of Java source and resource files.
 
-- main
+- main: Contains your app code. This code is shared amongst all different versions of the app you can build (known as build variants)
 - androidTest: Instrumented Unit Test. On Android Emulator
     - `androidTestImplementation** 'androidx.test.ext:junit:1.1.5'`
-- **test**[unit Test] : on JVM. More faster then androidTest
+- **test**[unit Test] : on JVM. More faster then androidTest. Contains tests known as local tests.
     - `testImplementation** 'junit:junit:4.13.2'`
    
    
