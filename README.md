@@ -10,9 +10,9 @@ https://truth.dev/
 
 ### <ins> Difference between implementation, testImplementation and androidTestImplementation </ins>
 
-- implementation: The dependency is available in all source sets, including the test source sets.
-- testImplementation: The dependency is only available in the test source set.
-- androidTestImplementation: The dependency is only available in the androidTest source set.
+- **implementation**: The dependency is available in all source sets, including the test source sets.
+- **testImplementation**: The dependency is only available in the test source set.
+- **androidTestImplementation**: The dependency is only available in the androidTest source set.
 
 # Source Sets
 ### A SourceSet represents a logical group of Java source and resource files.
