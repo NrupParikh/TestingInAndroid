@@ -8,7 +8,7 @@ https://truth.dev/
 - Adds dependency for androidTest source set
 `androidTestImplementation "com.google.truth:truth:1.1.3"`
 
-### Difference between implementation, testImplementation and androidTestImplementation
+### <u> Difference between implementation, testImplementation and androidTestImplementation </u>
 
 - implementation: The dependency is available in all source sets, including the test source sets.
 - testImplementation: The dependency is only available in the test source set.
