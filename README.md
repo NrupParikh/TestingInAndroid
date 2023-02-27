@@ -36,6 +36,6 @@ Right click on object→Generate→Test→ select test or androidTest
 - `@After`
     - If you allocate external resources in a Before method you need to release them after the test runs. Annotating a public void method with @After causes that method to be run after the Test method. All @After methods are guaranteed to run even if a Before or Test method throws an exception.
     
-# In Porject
+# In Project
 - RegistrationUtilTest in test [unitTest] : For validate userName, password, confirmedPassword.
 - ResourceCompareTest in androidTest : For compare two string resource.
