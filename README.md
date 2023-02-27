@@ -25,7 +25,7 @@ https://truth.dev/
    
    
 **To generate the Test Case class**
-Right click on object→Generate→Test→ select test or androidTest
+<ins> Right click on object→Generate→Test→ select test or androidTest </ins>
 
 - `@Test`
     - The Test annotation tells JUnit that the public void method to which it is attached can be run as a test case. To run the method, JUnit first constructs a fresh instance of the class then invokes the annotated method.
