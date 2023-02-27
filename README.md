@@ -1,6 +1,3 @@
-# TestingInAndroid
-Basics of Testing in Android.
-
 # Truth Testing Lib
 - Truth is a library for performing assertions in tests
 https://truth.dev/
