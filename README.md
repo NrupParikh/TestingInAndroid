@@ -22,9 +22,9 @@ https://truth.dev/
     - `androidTestImplementation** 'androidx.test.ext:junit:1.1.5'`
 - **test**[unit Test]: on JVM. More faster then androidTest. Contains tests known as local tests.
     - `testImplementation** 'junit:junit:4.13.2'`
-   
-   
-**To generate the Test Case class**
+
+
+### **To generate the Test Case class**
 <ins> Right click on object→Generate→Test→ select test or androidTest </ins>
 
 - `@Test`
