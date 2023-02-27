@@ -17,10 +17,10 @@ https://truth.dev/
 # Source Sets
 ### A SourceSet represents a logical group of Java source and resource files.
 
-- main: Contains your app code. This code is shared amongst all different versions of the app you can build (known as build variants)
-- androidTest: Instrumented Unit Test. On Android Emulator
+- **main**: Contains your app code. This code is shared amongst all different versions of the app you can build (known as build variants)
+- **androidTest**: Instrumented Unit Test. On Android Emulator
     - `androidTestImplementation** 'androidx.test.ext:junit:1.1.5'`
-- **test**[unit Test] : on JVM. More faster then androidTest. Contains tests known as local tests.
+- **test**[unit Test]: on JVM. More faster then androidTest. Contains tests known as local tests.
     - `testImplementation** 'junit:junit:4.13.2'`
    
    
